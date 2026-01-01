@@ -43,6 +43,28 @@
 				"07345712c57dbd09",
 				{
 					"SetPropertyValue": {
+						"property_name": "Texture2D_01_enab",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"07345712c57dbd09",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantVector1D_13_Value",
+						"value": 1.5
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"07345712c57dbd09",
+				{
+					"SetPropertyValue": {
 						"property_name": "Diffuse_Color_01_Value_op",
 						"value": "eReplace"
 					}
@@ -66,7 +88,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "Diffuse_Color_01_Value",
-						"value": "#0a0a0a"
+						"value": "#577D7E"
 					}
 				}
 			]
@@ -167,6 +189,39 @@
 						"property_name": "m_A",
 						"value": -0.45
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3e11149f6bbc6d75",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#0a0a0a"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3e11149f6bbc6d75",
+				{
+					"AddProperty": [
+						"ConstantVector1D_15_Value_op",
+						{
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3e11149f6bbc6d75",
+				{
+					"AddProperty": ["ConstantVector1D_15_Value", { "type": "float32", "value": 50.0 }]
 				}
 			]
 		},
@@ -273,7 +328,7 @@
 			"SubEntityOperation": [
 				"93094345a8feb9d6",
 				{
-					"AddProperty": ["Diffuse_Color_01_Value", { "type": "SColorRGB", "value": "#0a0a0a" }]
+					"AddProperty": ["Diffuse_Color_01_Value", { "type": "SColorRGB", "value": "#577D7E" }]
 				}
 			]
 		},
@@ -552,6 +607,39 @@
 		},
 		{
 			"SubEntityOperation": ["611e6619c26c0fd7", { "SetPropertyPostInit": ["Clients", true] }]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
+					"SetPropertyValue": {
+						"property_name": "Texture2DNormal_01_enab",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
+					"SetPropertyValue": {
+						"property_name": "Texture2D_03_enab",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
+					"SetPropertyValue": {
+						"property_name": "Texture2D_01_enab",
+						"value": false
+					}
+				}
+			]
 		},
 		{
 			"SubEntityOperation": [
