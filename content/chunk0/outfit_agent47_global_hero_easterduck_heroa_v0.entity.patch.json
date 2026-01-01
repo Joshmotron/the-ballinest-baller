@@ -521,7 +521,7 @@
 			"SubEntityOperation": [
 				"611e6619c26c0fd7",
 				{
-					"SetFactory": "[assembly:/_pro/characters/assets/individuals/hokkaido/hospitaldirector/materials/hospitaldirector_pants.mi].pc_entitytype"
+					"SetFactory": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/suit_pants/materials/male_reg_suit_pants_01.mi].pc_entitytype"
 				}
 			]
 		},
@@ -529,7 +529,7 @@
 			"SubEntityOperation": [
 				"611e6619c26c0fd7",
 				{
-					"SetBlueprint": "[assembly:/_pro/characters/assets/individuals/hokkaido/hospitaldirector/materials/hospitaldirector_pants.mi].pc_entityblueprint"
+					"SetBlueprint": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/suit_pants/materials/male_reg_suit_pants_01.mi].pc_entityblueprint"
 				}
 			]
 		},
