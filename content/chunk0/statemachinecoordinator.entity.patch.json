@@ -11,7 +11,7 @@
 				{
 					"SetPropertyValue": {
 						"property_name": "m_ePriority",
-						"value": "eCIP_High"
+						"value": "eCIP_Low"
 					}
 				}
 			]
@@ -98,7 +98,7 @@
 						"m_aSupportedMovements",
 						{
 							"type": "TArray<EBaseMovementType>",
-							"value": ["eMovementLocomotion"]
+							"value": []
 						}
 					]
 				}

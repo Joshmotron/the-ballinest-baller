@@ -2,6 +2,53 @@
 	"tempHash": "002CF97932757EC1",
 	"tbluHash": "00A2B4B49E2DC220",
 	"patch": [
+		{ "RemoveEntityByID": "27ea87e68629b201" },
+		{ "RemoveEntityByID": "b9a48e1435852a49" },
+		{ "RemoveEntityByID": "17ad4b551b127de3" },
+		{
+			"SubEntityOperation": [
+				"11e1d663f85c99c4",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#0a0a0a"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"07345712c57dbd09",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value_op",
+						"value": "eReplace"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"07345712c57dbd09",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#0a0a0a"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4f5f0d9eca58d536",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#0a0a0a"
+					}
+				}
+			]
+		},
 		{
 			"SubEntityOperation": [
 				"498072b513f14496",
@@ -74,6 +121,12 @@
 			]
 		},
 		{
+			"SubEntityOperation": ["dabad4bc76e6e190", { "SetParent": "cafe3d59f3d9725a" }]
+		},
+		{
+			"SubEntityOperation": ["dabad4bc76e6e190", { "RemovePropertyByName": "m_IsHiddenInVR" }]
+		},
+		{
 			"SubEntityOperation": [
 				"dabad4bc76e6e190",
 				{
@@ -88,12 +141,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"dabad4bc76e6e190",
-				{
-					"AddProperty": ["m_pMaterialOverrideResource0", { "type": "ZRuntimeResourceID", "value": null }]
-				}
-			]
+			"SubEntityOperation": ["dabad4bc76e6e190", { "RemovePlatformSpecificPropertiesForPlatform": "VR_PS4" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -116,19 +164,36 @@
 					"PatchArrayPropertyValue": [
 						"m_aBodyParts",
 						[
+							{ "RemoveItemByValue": "dabad4bc76e6e190" },
+							{
+								"AddItemBefore": ["1d4a5fe8da3ba679", "cafe3d59f3d9725a"]
+							},
 							{ "RemoveItemByValue": "17ad4b551b127de3" },
 							{ "RemoveItemByValue": "27ea87e68629b201" },
 							{
 								"AddItemAfter": ["83d69646da95410f", "cafe922bb3fe43d9"]
-							},
-							{
-								"AddItemAfter": ["19c81bfa2f53042b", "dabad4bc76e6e190"]
-							},
-							{
-								"AddItemAfter": ["19c81bfa2f53042b", "cafe1a0cb12b313a"]
 							}
 						]
 					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"93094345a8feb9d6",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value_op",
+						"value": "eReplace"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"93094345a8feb9d6",
+				{
+					"AddProperty": ["Diffuse_Color_01_Value", { "type": "SColorRGB", "value": "#0a0a0a" }]
 				}
 			]
 		},
@@ -169,6 +234,9 @@
 			]
 		},
 		{
+			"SubEntityOperation": ["e014fc149671b739", { "RemovePropertyAlias": "Diffuse_Color_01_Value_1" }]
+		},
+		{
 			"SubEntityOperation": [
 				"e014fc149671b739",
 				{
@@ -191,6 +259,34 @@
 						{
 							"originalProperty": "ConstantColorRGB_05_Value",
 							"originalEntity": "611e6619c26c0fd7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e014fc149671b739",
+				{
+					"AddPropertyAliasConnection": [
+						"Diffuse_Color_01_Value",
+						{
+							"originalProperty": "Diffuse_Color_01_Value",
+							"originalEntity": "7ada762cc4c2e0c7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e014fc149671b739",
+				{
+					"AddPropertyAliasConnection": [
+						"Diffuse_Color_01_Value",
+						{
+							"originalProperty": "Diffuse_Color_01_Value",
+							"originalEntity": "07345712c57dbd09"
 						}
 					]
 				}
@@ -239,30 +335,13 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"e014fc149671b739",
-				{
-					"AddPropertyAliasConnection": [
-						"Diffuse_Color_01_Value_1",
-						{
-							"originalProperty": "ConstantColorRGB_05_Value",
-							"originalEntity": "7ada762cc4c2e0c7"
-						}
-					]
-				}
-			]
+			"SubEntityOperation": ["7ada762cc4c2e0c7", { "SetParent": "e014fc149671b739" }]
 		},
 		{
 			"SubEntityOperation": [
-				"e014fc149671b739",
+				"7ada762cc4c2e0c7",
 				{
-					"AddPropertyAliasConnection": [
-						"Diffuse_Color_01_Value_1",
-						{
-							"originalProperty": "ConstantColorRGB_05_Value",
-							"originalEntity": "611e6619c26c0fd7"
-						}
-					]
+					"SetFactory": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l02/suit_jackets/materials/male_reg_suit_jacket_01_open.mi].pc_entitytype"
 				}
 			]
 		},
@@ -270,8 +349,36 @@
 			"SubEntityOperation": [
 				"7ada762cc4c2e0c7",
 				{
+					"SetBlueprint": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l02/suit_jackets/materials/male_reg_suit_jacket_01_open.mi].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["7ada762cc4c2e0c7", { "RemovePropertyByName": "ConstantColorRGB_02_Value_op" }]
+		},
+		{
+			"SubEntityOperation": ["7ada762cc4c2e0c7", { "RemovePropertyByName": "ConstantColorRGB_02_Value" }]
+		},
+		{
+			"SubEntityOperation": [
+				"7ada762cc4c2e0c7",
+				{
+					"PatchArrayPropertyValue": [
+						"Clients",
+						[{ "RemoveItemByValue": "95cb05ebf69f281e" }, { "AddItem": "e014fc149671b739" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["7ada762cc4c2e0c7", { "SetPropertyPostInit": ["Clients", true] }]
+		},
+		{
+			"SubEntityOperation": [
+				"7ada762cc4c2e0c7",
+				{
 					"AddProperty": [
-						"ConstantColorRGB_05_Value_op",
+						"Diffuse_Color_01_Value_op",
 						{
 							"type": "IRenderMaterialEntity.EModifierOperation",
 							"value": "eReplace"
@@ -284,7 +391,7 @@
 			"SubEntityOperation": [
 				"7ada762cc4c2e0c7",
 				{
-					"AddProperty": ["ConstantColorRGB_05_Value", { "type": "SColorRGB", "value": "#0a0a0a" }]
+					"AddProperty": ["Diffuse_Color_01_Value", { "type": "SColorRGB", "value": "#0a0a0a" }]
 				}
 			]
 		},
@@ -293,9 +400,59 @@
 				"7ada762cc4c2e0c7",
 				{
 					"SetPropertyValue": {
-						"property_name": "ConstantColorRGB_02_Value",
-						"value": "#0a0a0a"
+						"property_name": "m_eidParent",
+						"value": "e014fc149671b739"
 					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["7ada762cc4c2e0c7", { "SetPropertyPostInit": ["m_eidParent", true] }]
+		},
+		{
+			"SubEntityOperation": ["611e6619c26c0fd7", { "SetParent": "cafe3d59f3d9725a" }]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
+					"SetFactory": "[assembly:/_pro/characters/assets/individuals/hokkaido/hospitaldirector/materials/hospitaldirector_pants.mi].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/assets/individuals/hokkaido/hospitaldirector/materials/hospitaldirector_pants.mi].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["611e6619c26c0fd7", { "RemovePropertyByName": "ConstantColorRGB_02_Value_op" }]
+		},
+		{
+			"SubEntityOperation": ["611e6619c26c0fd7", { "RemovePropertyByName": "ConstantColorRGB_02_Value" }]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
+					"PatchArrayPropertyValue": [
+						"Clients",
+						[{ "RemoveItemByValue": "95cb05ebf69f281e" }, { "AddItem": "cafe3d59f3d9725a" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["611e6619c26c0fd7", { "SetPropertyPostInit": ["Clients", true] }]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
+					"AddProperty": ["Diffuse_Color_01_Value", { "type": "SColorRGB", "value": "#0a0a0a" }]
 				}
 			]
 		},
@@ -304,7 +461,7 @@
 				"611e6619c26c0fd7",
 				{
 					"AddProperty": [
-						"ConstantColorRGB_05_Value_op",
+						"Diffuse_Color_01_Value_op",
 						{
 							"type": "IRenderMaterialEntity.EModifierOperation",
 							"value": "eReplace"
@@ -314,23 +471,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"611e6619c26c0fd7",
-				{
-					"AddProperty": ["ConstantColorRGB_05_Value", { "type": "SColorRGB", "value": "#0a0a0a" }]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"611e6619c26c0fd7",
-				{
-					"SetPropertyValue": {
-						"property_name": "ConstantColorRGB_02_Value",
-						"value": "#0a0a0a"
-					}
-				}
-			]
+			"SubEntityOperation": ["611e6619c26c0fd7", { "SetPropertyPostInit": ["m_eidParent", true] }]
 		},
 		{
 			"AddEntity": [
@@ -354,20 +495,39 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1a0cb12b313a",
+				"cafe3d59f3d9725a",
 				{
 					"parent": "95cb05ebf69f281e",
-					"name": "Mesh_Tie",
-					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"name": "Agent47_S2_Pants",
+					"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
 					"properties": {
-						"m_pMeshResource": {
-							"type": "ZRuntimeResourceID",
-							"value": {
-								"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/neckwear/male_reg_neckwear.wl2?/tie_kelvin_jacket_fit.weightedprim](bodypart).pc_weightedprim",
-								"flag": "5F"
-							}
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "95cb05ebf69f281e"
+						},
+						"Diffuse_Color_01_Value": {
+							"type": "SColorRGB",
+							"value": "#0a0a0a"
 						}
+					},
+					"propertyAliases": {
+						"m_pMeshResource": [
+							{
+								"originalProperty": "m_pMeshResource",
+								"originalEntity": "dabad4bc76e6e190"
+							}
+						],
+						"Diffuse_Color_01_Value": [
+							{
+								"originalProperty": "Diffuse_Color_01_Value",
+								"originalEntity": "611e6619c26c0fd7"
+							}
+						]
+					},
+					"exposedInterfaces": {
+						"ZBodyPartEntity": "dabad4bc76e6e190",
+						"ZClothColliderGroupAspect": "dabad4bc76e6e190"
 					}
 				}
 			]
