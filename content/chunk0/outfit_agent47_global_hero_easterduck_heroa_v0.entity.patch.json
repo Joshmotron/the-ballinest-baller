@@ -1,0 +1,377 @@
+{
+	"tempHash": "002CF97932757EC1",
+	"tbluHash": "00A2B4B49E2DC220",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"498072b513f14496",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantColorRGB_05_Value",
+						"value": "#2c5c94"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"498072b513f14496",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantColorRGB_02_Value",
+						"value": "#1a4dab"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a295247d8f019541",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.05597795813053336,
+								"y": 0.0,
+								"z": -0.0559780181404361
+							},
+							"position": {
+								"x": 0.03649599850177765,
+								"y": 0.011141999624669552,
+								"z": -0.05660700052976608
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1d4a5fe8da3ba679",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#0a0a0a"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"83d69646da95410f",
+				{
+					"SetFactory": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_unique.template?/head_floridaman.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"83d69646da95410f",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/templates/_part_library/male_parts/male_heads_unique.template?/head_floridaman.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"dabad4bc76e6e190",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/pants/geometry/male_reg_pants_dress.wl2?/pants_dress_slim.weightedprim](bodypart).pc_weightedprim",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"dabad4bc76e6e190",
+				{
+					"AddProperty": ["m_pMaterialOverrideResource0", { "type": "ZRuntimeResourceID", "value": null }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"95cb05ebf69f281e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pBonesAndCollisionResource",
+						"value": {
+							"resource": "[assembly:/_pro/characters/assets/individuals/flamingo/floridaman/geometry/male_reg_floridaman.wl2?/male_reg_head.weightedprim](bodypart).pc_bonerig",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"95cb05ebf69f281e",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[
+							{ "RemoveItemByValue": "17ad4b551b127de3" },
+							{ "RemoveItemByValue": "27ea87e68629b201" },
+							{
+								"AddItemAfter": ["83d69646da95410f", "cafe922bb3fe43d9"]
+							},
+							{
+								"AddItemAfter": ["19c81bfa2f53042b", "dabad4bc76e6e190"]
+							},
+							{
+								"AddItemAfter": ["19c81bfa2f53042b", "cafe1a0cb12b313a"]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ef23df60bd94d2da",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "[assembly:/_pro/characters/assets/hero/agent47/geometry/agent47_s2_suit.wl2?/agent47_s2_suit_tiebar.weightedprim](bodypart).pc_weightedprim",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e014fc149671b739",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantColorRGB_05_Value",
+						"value": "#2c5c94"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e014fc149671b739",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value_1",
+						"value": "#441fe9"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e014fc149671b739",
+				{
+					"AddPropertyAliasConnection": [
+						"ConstantColorRGB_05_Value",
+						{
+							"originalProperty": "ConstantColorRGB_05_Value",
+							"originalEntity": "7ada762cc4c2e0c7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e014fc149671b739",
+				{
+					"AddPropertyAliasConnection": [
+						"ConstantColorRGB_05_Value",
+						{
+							"originalProperty": "ConstantColorRGB_05_Value",
+							"originalEntity": "611e6619c26c0fd7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e014fc149671b739",
+				{
+					"AddPropertyAliasConnection": [
+						"ConstantColorRGB_02_Value",
+						{
+							"originalProperty": "ConstantColorRGB_02_Value",
+							"originalEntity": "498072b513f14496"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e014fc149671b739",
+				{
+					"AddPropertyAliasConnection": [
+						"ConstantColorRGB_02_Value",
+						{
+							"originalProperty": "ConstantColorRGB_02_Value",
+							"originalEntity": "7ada762cc4c2e0c7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e014fc149671b739",
+				{
+					"AddPropertyAliasConnection": [
+						"ConstantColorRGB_02_Value",
+						{
+							"originalProperty": "ConstantColorRGB_02_Value",
+							"originalEntity": "611e6619c26c0fd7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e014fc149671b739",
+				{
+					"AddPropertyAliasConnection": [
+						"Diffuse_Color_01_Value_1",
+						{
+							"originalProperty": "ConstantColorRGB_05_Value",
+							"originalEntity": "7ada762cc4c2e0c7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e014fc149671b739",
+				{
+					"AddPropertyAliasConnection": [
+						"Diffuse_Color_01_Value_1",
+						{
+							"originalProperty": "ConstantColorRGB_05_Value",
+							"originalEntity": "611e6619c26c0fd7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7ada762cc4c2e0c7",
+				{
+					"AddProperty": [
+						"ConstantColorRGB_05_Value_op",
+						{
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7ada762cc4c2e0c7",
+				{
+					"AddProperty": ["ConstantColorRGB_05_Value", { "type": "SColorRGB", "value": "#0a0a0a" }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7ada762cc4c2e0c7",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantColorRGB_02_Value",
+						"value": "#0a0a0a"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
+					"AddProperty": [
+						"ConstantColorRGB_05_Value_op",
+						{
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
+					"AddProperty": ["ConstantColorRGB_05_Value", { "type": "SColorRGB", "value": "#0a0a0a" }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantColorRGB_02_Value",
+						"value": "#0a0a0a"
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe922bb3fe43d9",
+				{
+					"parent": "95cb05ebf69f281e",
+					"name": "Mesh_Glasses",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/individuals/flamingo/floridaman/geometry/male_reg_floridaman.wl2?/glasses.weightedprim](bodypart).pc_weightedprim",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1a0cb12b313a",
+				{
+					"parent": "95cb05ebf69f281e",
+					"name": "Mesh_Tie",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/neckwear/male_reg_neckwear.wl2?/tie_kelvin_jacket_fit.weightedprim](bodypart).pc_weightedprim",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

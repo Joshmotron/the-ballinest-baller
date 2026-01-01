@@ -1,0 +1,131 @@
+{
+	"tempHash": "0001F1364984288D",
+	"tbluHash": "00B35AB8FFF33681",
+	"patch": [
+		{
+			"SubEntityOperation": ["e6538e2a33b14b55", { "SetName": "FlamingoSettings" }]
+		},
+		{
+			"SubEntityOperation": [
+				"e6538e2a33b14b55",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_ePriority",
+						"value": "eCIP_High"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6538e2a33b14b55",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bNeedsToPlayAlone",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6538e2a33b14b55",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fCooldownForThis",
+						"value": 10.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6538e2a33b14b55",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fSafetyTimeOut",
+						"value": 30.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6538e2a33b14b55",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eEventType",
+						"value": "eCIET_None"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6538e2a33b14b55",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eRuningRequirements",
+						"value": "eBSR_RequireFalse"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6538e2a33b14b55",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bDisabled",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6538e2a33b14b55",
+				{
+					"AddProperty": ["m_fCooldownForThisRand", { "type": "float32", "value": 60.0 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6538e2a33b14b55",
+				{
+					"AddProperty": [
+						"m_aSupportedMovements",
+						{
+							"type": "TArray<EBaseMovementType>",
+							"value": ["eMovementLocomotion"]
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6538e2a33b14b55",
+				{
+					"AddProperty": ["m_fMovementMovingTimeUnchanged", { "type": "float32", "value": 7.5 }]
+				}
+			]
+		},
+		{
+			"AddComment": {
+				"parent": "fed63b086359d31f",
+				"name": "Notes",
+				"text": "ChildNetwork31 = Flamingo!!!"
+			}
+		},
+		{
+			"AddComment": {
+				"parent": "e6538e2a33b14b55",
+				"name": "Notes",
+				"text": "Is the Flamingo idle???"
+			}
+		}
+	],
+	"patchVersion": 6
+}

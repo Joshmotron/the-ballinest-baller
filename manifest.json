@@ -1,9 +1,10 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"version": "1.0.0",
+	"id": "Ballinest.Baller",
+	"name": "47's Baller Suit 1.0.0",
+	"description": "The Ultimate(?) Cheat Suit",
+	"authors": ["Reverend Tim Tom"],
+	"contentFolders": ["content"],
+	"frameworkVersion": "2.33.33"
 }
