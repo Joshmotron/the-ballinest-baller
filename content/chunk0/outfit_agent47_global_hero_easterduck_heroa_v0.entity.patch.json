@@ -18,11 +18,44 @@
 		},
 		{
 			"SubEntityOperation": [
+				"bc36e8db4ec39643",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_B",
+						"value": 0.5
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc36e8db4ec39643",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_A",
+						"value": 3.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"07345712c57dbd09",
 				{
 					"SetPropertyValue": {
 						"property_name": "Diffuse_Color_01_Value_op",
 						"value": "eReplace"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"07345712c57dbd09",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantVector1D_14_Value",
+						"value": 0.2
 					}
 				}
 			]
@@ -73,22 +106,66 @@
 		},
 		{
 			"SubEntityOperation": [
-				"a295247d8f019541",
+				"67a02076626af4f5",
 				{
 					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.05597795813053336,
-								"y": 0.0,
-								"z": -0.0559780181404361
-							},
-							"position": {
-								"x": 0.03649599850177765,
-								"y": 0.011141999624669552,
-								"z": -0.05660700052976608
-							}
-						}
+						"property_name": "m_B",
+						"value": 0.35
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"680b753e6b9ba9d3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_A",
+						"value": 0.05
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0ea67f0ad3875554",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_B",
+						"value": 0.4
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0ea67f0ad3875554",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_A",
+						"value": 0.1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f95a9f7707ce8dbf",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_B",
+						"value": 0.2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f95a9f7707ce8dbf",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_A",
+						"value": -0.45
 					}
 				}
 			]
@@ -124,6 +201,9 @@
 			"SubEntityOperation": ["dabad4bc76e6e190", { "SetParent": "cafe3d59f3d9725a" }]
 		},
 		{
+			"SubEntityOperation": ["dabad4bc76e6e190", { "SetName": "Mesh Envy Pants" }]
+		},
+		{
 			"SubEntityOperation": ["dabad4bc76e6e190", { "RemovePropertyByName": "m_IsHiddenInVR" }]
 		},
 		{
@@ -133,7 +213,7 @@
 					"SetPropertyValue": {
 						"property_name": "m_pMeshResource",
 						"value": {
-							"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/pants/geometry/male_reg_pants_dress.wl2?/pants_dress_slim.weightedprim](bodypart).pc_weightedprim",
+							"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_envy/geometry/agent47_envy.wl2?/envy_pants.weightedprim](bodypart).pc_weightedprim",
 							"flag": "5F"
 						}
 					}
@@ -194,6 +274,28 @@
 				"93094345a8feb9d6",
 				{
 					"AddProperty": ["Diffuse_Color_01_Value", { "type": "SColorRGB", "value": "#0a0a0a" }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"994590642fbfee06",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_B",
+						"value": 0.35
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"994590642fbfee06",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_A",
+						"value": 0.05
+					}
 				}
 			]
 		},
@@ -377,6 +479,20 @@
 			"SubEntityOperation": [
 				"7ada762cc4c2e0c7",
 				{
+					"SetPropertyValue": {
+						"property_name": "m_eidParent",
+						"value": "e014fc149671b739"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["7ada762cc4c2e0c7", { "SetPropertyPostInit": ["m_eidParent", true] }]
+		},
+		{
+			"SubEntityOperation": [
+				"7ada762cc4c2e0c7",
+				{
 					"AddProperty": [
 						"Diffuse_Color_01_Value_op",
 						{
@@ -396,21 +512,10 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"7ada762cc4c2e0c7",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eidParent",
-						"value": "e014fc149671b739"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": ["7ada762cc4c2e0c7", { "SetPropertyPostInit": ["m_eidParent", true] }]
-		},
-		{
 			"SubEntityOperation": ["611e6619c26c0fd7", { "SetParent": "cafe3d59f3d9725a" }]
+		},
+		{
+			"SubEntityOperation": ["611e6619c26c0fd7", { "SetName": "Materials Hospital Director Pants" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -452,6 +557,51 @@
 			"SubEntityOperation": [
 				"611e6619c26c0fd7",
 				{
+					"SetPropertyValue": {
+						"property_name": "Texture2DNormal_01",
+						"value": {
+							"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_envy/textures/pants_envy.texture?/normal_a.tex](asnormalmap).pc_tex",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
+					"SetPropertyValue": {
+						"property_name": "Texture2D_03",
+						"value": {
+							"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_envy/textures/pants_envy.texture?/specular_a.tex](ascolormap).pc_tex",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
+					"SetPropertyValue": {
+						"property_name": "Texture2D_01",
+						"value": {
+							"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_envy/textures/pants_envy.texture?/diffuse_a.tex](ascolormap).pc_tex",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["611e6619c26c0fd7", { "SetPropertyPostInit": ["m_eidParent", true] }]
+		},
+		{
+			"SubEntityOperation": [
+				"611e6619c26c0fd7",
+				{
 					"AddProperty": ["Diffuse_Color_01_Value", { "type": "SColorRGB", "value": "#0a0a0a" }]
 				}
 			]
@@ -469,9 +619,6 @@
 					]
 				}
 			]
-		},
-		{
-			"SubEntityOperation": ["611e6619c26c0fd7", { "SetPropertyPostInit": ["m_eidParent", true] }]
 		},
 		{
 			"AddEntity": [
