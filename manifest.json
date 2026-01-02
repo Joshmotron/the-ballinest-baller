@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"id": "Ballinest.Baller",
 	"name": "The Florida Man Egg Hunt Suit",
 	"description": "A silly mashup to almost-completely replace the Egg Hunt suit with a far more stylish Florida Man in a dark fitted suit and shades. Comes with Flamingo flapping idle animations.",
