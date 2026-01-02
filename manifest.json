@@ -2,9 +2,9 @@
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "1.0.0",
 	"id": "Ballinest.Baller",
-	"name": "47's Baller Suit 1.0.0",
-	"description": "The Ultimate(?) Cheat Suit",
-	"authors": ["Reverend Tim Tom"],
+	"name": "The Florida Man Egg Hunt Suit",
+	"description": "A silly mashup to almost-completely replace the Egg Hunt suit with a far more stylish Florida Man in a dark fitted suit and shades. Comes with Flamingo flapping idle animations.",
+	"authors": ["The Reverend Tim Tom"],
 	"contentFolders": ["content"],
 	"frameworkVersion": "2.33.33",
 	"updateCheck": "https://github.com/Joshmotron/the-ballinest-baller/releases/latest/download/updates.json"
