@@ -128,50 +128,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"67a02076626af4f5",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_B",
-						"value": 0.35
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"680b753e6b9ba9d3",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_A",
-						"value": 0.05
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"0ea67f0ad3875554",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_B",
-						"value": 0.4
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"0ea67f0ad3875554",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_A",
-						"value": 0.1
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"f95a9f7707ce8dbf",
 				{
 					"SetPropertyValue": {
@@ -329,28 +285,6 @@
 				"93094345a8feb9d6",
 				{
 					"AddProperty": ["Diffuse_Color_01_Value", { "type": "SColorRGB", "value": "#577D7E" }]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"994590642fbfee06",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_B",
-						"value": 0.35
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"994590642fbfee06",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_A",
-						"value": 0.05
-					}
 				}
 			]
 		},
